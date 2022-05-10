@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+<bean id="ans1" class="com.wipro.training.springdemo.Answer"><!-- creating bean  -->
+   
+    <!-- constructor-arg tag is used for constructor Injection  -->
+    <constructor-arg value="1"></constructor-arg>
+    <constructor-arg value="Spring is a Application Framework"></constructor-arg>
+    <constructor-arg value="12/01/2020"></constructor-arg>
+   
+    </bean>
+   
+     <bean id="ans2" class="com.wipro.training.springdemo.Answer"><!-- creating bean  -->
+   
+    <!-- constructor-arg tag is used for constructor Injection  -->
+    <constructor-arg value="2"></constructor-arg>
+    <constructor-arg value="Spring impliments IOC"></constructor-arg>
+    <constructor-arg value="02/01/2020"></constructor-arg>
+   
+    </bean>
+</beans>

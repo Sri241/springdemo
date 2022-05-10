@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.9.15.202012132325-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>src/main/java/StudentConfig.xml</config>
+		<config>src/main/java/EmployeeConfig.xml</config>
+		<config>src/main/java/BookConfig.xml</config>
+		<config>src/main/java/AnswerConfig.xml</config>
+		<config>src/main/java/DeveloperConfig.xml</config>
+		<config>src/main/java/CandidateConfig.xml</config>
+	</configs>
+	<autoconfigs>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>
